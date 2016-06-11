@@ -1,0 +1,56 @@
+@charset "UTF-8";
+h1{
+    color: coral;
+    font-size: 20px;
+    font-family:initial;
+}
+
+/*formatação por seleção*/
+#divparagrafo{
+    
+    background-color: rgba(10,10,10,0.2);
+    width: 100px;
+    height: 100px;
+}
+.paragrafo{
+    
+    font-size: 20px;
+    font-family: arial solid black;
+    color:deepskyblue;
+}
+
+/*imagem de fundo*/
+.imagem_de_fundo{
+    
+    background:url("../imagem/textura.jpg") center center no-repeat;
+}
+.font_01{
+    font-family: arial, helvita, sans-serif;
+    color: darkolivegreen;
+    font-size: 70px;
+}
+.elementotext_espacamento{
+    
+    letter-spacing: 20px;
+    
+}
+.elementotext_wordspacing{
+    word-spacing: 40px;
+}
+.elementotext_align{
+    /*left, right, justify, center */
+    text-align: justify;
+}
+.elementotext_decoration{
+    /*none, underline, overline, line-through, blink */
+    text-decoration: overline;
+}
+.elementotext_identit{
+    
+    text-indent: 20px;
+}
+.elementotext_transform{
+    /*none, uppercase, lowercase, capitalize */
+    
+    text-transform: uppercase;
+}
