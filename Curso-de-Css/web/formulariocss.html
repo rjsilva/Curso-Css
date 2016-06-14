@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulário com Css</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            .container{
+                
+                margin-left: auto;
+                margin-right: auto;
+                background: cadetblue;
+                width: 500px;
+                height:300px;
+                    
+            }
+            .container label{
+                display: block;
+                padding:5px;
+            }
+            .container textArea{
+                width: 91%;
+                padding:20px;
+                margin-left:1px;
+            }
+            .botao{
+                padding:10px;
+                border-radius:10px;
+                width: 100px;
+                margin-left:10px;
+                border:1px solid gray;
+            }
+            .container label input{
+                width: 300px;
+                border-radius: 10px;
+                padding:5px;
+            }
+            .container textArea{
+                border-radius: 10px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <label>
+                    Nome:<input type="text" name="nome" id="nome"/>
+                </label>
+                <label>
+                    Senha:<input type="password" name="senha" id="senha"/>
+                </label>
+                Mensagem:<textarea name="mensagem" id="mensagem"></textarea>
+                <input type="submit" value="Enviar" class="botao"/>
+            </form>
+        </div>
+    </body>
+</html>
