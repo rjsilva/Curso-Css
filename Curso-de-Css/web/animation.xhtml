@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Animation com CSS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <style type="text/css">
+            .logo{
+                width:300px;
+                padding:50px;
+                border-radius:10px;
+                position:absolute;
+                left:calc(50% - 150px);
+                background:black;
+                color:white;
+                transition:
+                    background ease 0.9s,
+                    font-size ease-in-out 0.9s;
+                
+            }
+            .logo:hover{
+                
+                background:red;
+                font-size:50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="logo">
+            ronaldo
+        </div>
+    </body>
+</html>

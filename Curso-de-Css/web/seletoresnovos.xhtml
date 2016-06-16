@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Novos Seletores</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <style type="text/css">
+            .divseletores a[href^="https"]{
+                
+                font-size:20px;
+                border:1px solid red;
+            }
+            .divseletores a[title~="fornecedores"]{
+                
+                color:yellow;
+                font-size:20px;
+                text-shadow:10px 10px 5px red;
+            }
+            .divseletores input[type="text"]{
+                display:block;
+                border:1px dashed darkorchid;
+            }
+            .divseletores button[type="submit"]{
+                float:right;
+                background:blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="divseletores">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                    <a href="#" title="fornecedores">Contato</a>
+                    <a href="https://google.com">Quem Somos</a>
+                </li>
+            </ul>
+            Nome:<input type="text" />
+            <button type="submit">Cadastrar</button>
+        </div>
+    </body>
+</html>
