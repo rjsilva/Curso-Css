@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Media Queries</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <style type="text/css">
+            .container{
+                width:50%;
+                border:1px solid gray;
+                padding:0px;
+                margin-left:auto;
+                margin-right:auto;
+                background:cadetblue;
+            }
+            .cabecalho .logo{
+                width:100%;
+                background:whitesmoke;
+                padding-top:30px;
+                font-family:Arial;
+            }
+            .logo h1{
+                padding-left:30px;
+            }
+            .conteudo .menu ul li{
+                float:left;
+                list-style:none;
+                padding:10px;
+                margin:0px;
+                font-size:20px;
+            }
+            .conteudo .artigo h2{
+
+                float:left;
+                color:crimson;
+                margin-left:10px;
+            }
+            .conteudo .artigo .paragrafo{
+                float:right;
+                display:block;
+                color:black;
+                width:50%;
+                margin-top:90px;
+                text-align:justify;
+            }
+            .divclear{
+                clear:both;
+            }
+            @media(max-width:1110px){
+                
+                .container{
+                    background:cadetblue;
+                }
+            }
+            @media(min-width:480px){
+                .container{
+                    background:chartreuse;
+                }
+            }
+            
+            @media (min-width:300px) and (max-width: 400px){
+                
+                .container{
+                    background:darkorchid;
+                }
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="cabecalho">
+                <div class="logo"><h1>Site Ronaldo</h1></div>
+            </div>
+            <div class="conteudo">
+                <div class="menu">
+                    <ul>
+                        <li>Home</li>
+                        <li>Contato</li>
+                        <li>Quem somos</li>
+                    </ul>
+                </div>
+                <div class="artigo divclear">
+                    <h2>Bem-Vindo ao site do ronaldo</h2>
+                    <div class="paragrafo">
+                        <p>Texto Texto Texto Texto Texto Texto Texto 
+                            Texto Texto v Texto Texto Texto Texto Texto 
+                            Texto Texto Texto TextoTexto Texto Texto Texto </p>
+                    </div>
+                </div>
+            </div>
+            <div class="divclear">
+
+            </div>
+            <div class="radape">
+                <p>direitos reservados</p>
+            </div>
+        </div>
+    </body>
+</html>
